@@ -1,0 +1,16 @@
+# ── Course data (huge; download from course site / Kaggle) ───────────────
+birds_dataset/
+
+# ── IDE & tooling ─────────────────────────────────────────────────────
+.claude/
+.cursor/
+.vscode/
+.idea/
+*.swp
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# ── TransFG upstream clone (nested .git breaks `git add`; not required
+#    to run our training — we only borrowed ideas in model.py)
+TranssFG/
